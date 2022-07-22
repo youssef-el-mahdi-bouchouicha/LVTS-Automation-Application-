@@ -1,0 +1,532 @@
+﻿<Window
+    x:Class="Automation_LVTS.View.UserConfig"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Automation_LVTS"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="LoginView"
+    Width="800"
+    Height="550"
+    AllowsTransparency="True"
+    Background="Transparent"
+    MouseDown="Window_MouseDown"
+    ResizeMode="NoResize"
+    WindowStartupLocation="CenterScreen"
+    WindowStyle="None"
+    mc:Ignorable="d">
+
+    <Border CornerRadius="12">
+        <Border.Background>
+            <ImageBrush ImageSource="/Images/back-image.jpg" Stretch="None" />
+        </Border.Background>
+
+        <Border
+            BorderThickness="2"
+            CornerRadius="10"
+            Opacity="0.95">
+
+            <Border.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Offset="0" Color="#E6A9A9" />
+                    <GradientStop Offset="0.75" Color="#E57E7E" />
+                    <GradientStop Offset="1" Color="#6E1919" />
+                </LinearGradientBrush>
+            </Border.BorderBrush>
+
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                    <GradientStop Offset="0" Color="#2E2C2C" />
+                    <GradientStop Offset="1" Color="#837E7E" />
+                </LinearGradientBrush>
+            </Border.Background>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30" />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0">
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition Width="25" />
+                        <ColumnDefinition Width="25" />
+                        <ColumnDefinition Width="5" />
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock
+                        Grid.Column="0"
+                        Margin="10,0,0,0"
+                        VerticalAlignment="Center"
+                        FontFamily="Montserrat"
+                        FontSize="15"
+                        Foreground="DarkGray"
+                        Text="User Configuration " />
+
+                    <Button
+                        x:Name="btnMinimize"
+                        Grid.Column="1"
+                        BorderThickness="0"
+                        Click="btnMinimize_Click"
+                        Content="-"
+                        Cursor="Hand"
+                        FontFamily="Montserrat"
+                        FontSize="16"
+                        Foreground="White">
+
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="#28AEED" />
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#404040" />
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border
+                                    Width="18"
+                                    Height="18"
+                                    Background="{TemplateBinding Background}"
+                                    CornerRadius="9">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+
+                    </Button>
+
+                    <Button
+                        x:Name="btnClose"
+                        Grid.Column="2"
+                        BorderThickness="0"
+                        Click="btnClose_Click"
+                        Content="X"
+                        Cursor="Hand"
+                        FontFamily="Montserrat"
+                        FontSize="12"
+                        Foreground="White">
+
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="#D02121" />
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#404040" />
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border
+                                    Width="18"
+                                    Height="18"
+                                    Background="{TemplateBinding Background}"
+                                    CornerRadius="9">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                </Grid>
+
+                <StackPanel
+                    Grid.Row="1"
+                    Width="200"
+                    Margin="0,0,0,383"
+                    HorizontalAlignment="Center"
+                    Orientation="Vertical">
+
+                    <Image
+                        Width="70"
+                        Height="70"
+                        Source="/Images/Linedata_Logo.png" />
+
+                    <TextBlock
+                        HorizontalAlignment="Center"
+                        FontFamily="Montserrat"
+                        FontSize="20"
+                        FontWeight="Medium"
+                        Foreground="White"><Run Language="fr-fr" Text="Linedata" /></TextBlock>
+
+                    <TextBlock
+                        Margin="0,10,0,0"
+                        FontFamily="Montserrat"
+                        FontSize="15"
+                        FontWeight="Normal"
+                        Foreground="LightGray"
+                        Text="We Humanize Technology"
+                        TextAlignment="Center"
+                        TextWrapping="Wrap" />
+
+
+
+                </StackPanel>
+                <StackPanel
+                    Grid.Row="1"
+                    Width="600"
+                    Height="300"
+                    Margin="0,70,0,0"
+                    HorizontalAlignment="Center"
+                    Orientation="Vertical">
+
+                    <StackPanel
+                        Width="600"
+                        Margin="0,0,0,0"
+                        HorizontalAlignment="Left"
+                        Orientation="Horizontal">
+
+                        <StackPanel
+                            Width="200"
+                            Margin="50,0,0,0"
+                            HorizontalAlignment="Left"
+                            Orientation="Vertical">
+
+                            <TextBlock
+                                Margin="0,15,0,0"
+                                FontFamily="Montserrat"
+                                FontSize="12"
+                                FontWeight="Medium"
+                                Foreground="DarkGray"
+                                Text="Login Name" />
+
+                            <TextBox
+                                x:Name="login_name_uc"
+                                Height="28"
+                                Margin="0,05,0,0"
+                                Padding="30,0,0,0"
+                                VerticalContentAlignment="Center"
+                                BorderBrush="DarkGray"
+                                BorderThickness="0,0,0,2"
+                                CaretBrush="LightGray"
+                                FontFamily="Montserrat"
+                                FontSize="13"
+                                FontWeight="Medium"
+                                Foreground="White">
+
+                                <TextBox.Background>
+                                    <ImageBrush
+                                        AlignmentX="Left"
+                                        ImageSource="/Images/loginUN.png"
+                                        Stretch="None" />
+
+                                </TextBox.Background>
+                            </TextBox>
+
+                        </StackPanel>
+
+                        <StackPanel
+                            Width="200"
+                            Margin="100,0,0,0"
+                            HorizontalAlignment="Center"
+                            Orientation="Vertical">
+
+                            <TextBlock
+                                Margin="0,15,0,0"
+                                FontFamily="Montserrat"
+                                FontSize="12"
+                                FontWeight="Medium"
+                                Foreground="DarkGray"
+                                Text="UserName" />
+
+                            <TextBox
+                                x:Name="Username_uc"
+                                Height="28"
+                                Margin="0,5,0,0"
+                                Padding="30,0,0,0"
+                                VerticalContentAlignment="Center"
+                                BorderBrush="DarkGray"
+                                BorderThickness="0,0,0,2"
+                                CaretBrush="LightGray"
+                                FontFamily="Montserrat"
+                                FontSize="13"
+                                FontWeight="Medium"
+                                Foreground="White">
+
+                                <TextBox.Background>
+                                    <ImageBrush
+                                        AlignmentX="Left"
+                                        ImageSource="/Images/user-icon.png"
+                                        Stretch="None" />
+                                </TextBox.Background>
+                            </TextBox>
+
+                        </StackPanel>
+
+
+                    </StackPanel>
+                    <StackPanel
+                        Width="600"
+                        Margin="0,0,0,0"
+                        HorizontalAlignment="Left"
+                        Orientation="Horizontal">
+                        <StackPanel
+                            Width="200"
+                            Margin="50,0,0,0"
+                            HorizontalAlignment="Left"
+                            Orientation="Vertical">
+
+                            <TextBlock
+                                Margin="0,15,0,0"
+                                FontFamily="Montserrat"
+                                FontSize="12"
+                                FontWeight="Medium"
+                                Foreground="DarkGray"
+                                Text="ServerName" />
+
+                            <TextBox
+                                x:Name="ServerName_uc"
+                                Height="28"
+                                Margin="0,05,0,0"
+                                Padding="30,0,0,0"
+                                VerticalContentAlignment="Center"
+                                BorderBrush="DarkGray"
+                                BorderThickness="0,0,0,2"
+                                CaretBrush="LightGray"
+                                FontFamily="Montserrat"
+                                FontSize="13"
+                                FontWeight="Medium"
+                                Foreground="White">
+
+                                <TextBox.Background>
+                                    <ImageBrush
+                                        AlignmentX="Left"
+                                        ImageSource="/Images/serv.png"
+                                        Stretch="None" />
+
+                                </TextBox.Background>
+                            </TextBox>
+
+                        </StackPanel>
+
+
+
+                        <StackPanel
+                            Width="200"
+                            Margin="100,0,0,0"
+                            HorizontalAlignment="Center"
+                            Orientation="Vertical">
+
+                            <TextBlock
+                                Margin="0,15,0,0"
+                                FontFamily="Montserrat"
+                                FontSize="12"
+                                FontWeight="Medium"
+                                Foreground="DarkGray"
+                                Text="DataBase Name" />
+
+                            <ComboBox
+                                x:Name="comboDB_uc"
+                                Grid.Row="1"
+                                Height="28"
+                                Margin="0,10,0,0"
+                                Padding="30,0,0,0"
+                                VerticalContentAlignment="Center"
+                                Background="DarkGray"
+                                BorderBrush="DarkGray"
+                                BorderThickness="0,0,0,2"
+                                FontFamily="Montserrat"
+                                FontSize="13"
+                                FontWeight="Medium"
+                                Foreground="DarkGray"
+                                Opacity="0.5" />
+
+
+
+                        </StackPanel>
+                        <TextBlock
+                            x:Name="error_combod_uc"
+                            Margin="0,15,0,0"
+                            FontFamily="Montserrat"
+                            FontSize="20"
+                            FontWeight="Medium"
+                            Foreground="DarkGray"
+                            Text="*" />
+
+
+
+                    </StackPanel>
+                    <StackPanel
+                        Width="600"
+                        Margin="0,0,0,0"
+                        HorizontalAlignment="Left"
+                        Orientation="Horizontal">
+
+
+                        <StackPanel
+                            Width="150"
+                            Margin="50,0,0,0"
+                            HorizontalAlignment="Left"
+                            Orientation="Vertical">
+
+                            <TextBlock
+                                Margin="0,15,0,0"
+                                FontFamily="Montserrat"
+                                FontSize="12"
+                                FontWeight="Medium"
+                                Foreground="DarkGray"
+                                Text="Domain UserName" />
+
+                            <TextBox
+                                x:Name="domainUN_uc"
+                                Height="28"
+                                Margin="0,05,0,0"
+                                Padding="30,0,0,0"
+                                VerticalContentAlignment="Center"
+                                BorderBrush="DarkGray"
+                                BorderThickness="0,0,0,2"
+                                CaretBrush="LightGray"
+                                FontFamily="Montserrat"
+                                FontSize="13"
+                                FontWeight="Medium"
+                                Foreground="White">
+
+                                <TextBox.Background>
+                                    <ImageBrush
+                                        AlignmentX="Left"
+                                        ImageSource="/Images/DomainUN.png"
+                                        Stretch="None" />
+
+                                </TextBox.Background>
+                            </TextBox>
+
+                        </StackPanel>
+
+                        <StackPanel
+                            Width="150"
+                            Margin="30,0,0,0"
+                            HorizontalAlignment="Center"
+                            Orientation="Vertical">
+
+
+                            <TextBlock
+                                Margin="0,15,0,0"
+                                FontFamily="Montserrat"
+                                FontSize="12"
+                                FontWeight="Medium"
+                                Foreground="DarkGray"
+                                Text="Current User" />
+
+                            <TextBox
+                                x:Name="Current_User_uc"
+                                Height="28"
+                                Margin="0,5,0,0"
+                                Padding="30,0,0,0"
+                                VerticalContentAlignment="Center"
+                                BorderBrush="DarkGray"
+                                BorderThickness="0,0,0,2"
+                                CaretBrush="LightGray"
+                                FontFamily="Montserrat"
+                                FontSize="13"
+                                FontWeight="Medium"
+                                Foreground="White"
+                                IsEnabled="False"
+                                Text="1">
+
+                                <TextBox.Background>
+                                    <ImageBrush
+                                        AlignmentX="Left"
+                                        ImageSource="/Images/cable.png"
+                                        Stretch="None" />
+                                </TextBox.Background>
+                            </TextBox>
+
+                        </StackPanel>
+
+
+                        <StackPanel
+                            Margin="60,0,0,0"
+                            HorizontalAlignment="Right"
+                            Orientation="Vertical">
+
+                            <Button
+                                x:Name="btnRun_uc"
+                                Margin="0,30,0,0"
+                                BorderThickness="0"
+                                Click="btnRun_uc_Click"
+                                Content="Run Script"
+                                Cursor="Hand"
+                                FontFamily="Montserrat"
+                                FontSize="10"
+                                FontWeight="Normal"
+                                Foreground="White">
+
+                                <Button.Style>
+                                    <Style TargetType="Button">
+                                        <Setter Property="Background" Value="DarkGray" />
+                                        <Style.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+                                                <Setter Property="Background" Value="#28AEED" />
+                                            </Trigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </Button.Style>
+
+                                <Button.Template>
+                                    <ControlTemplate TargetType="Button">
+                                        <Border
+                                            Width="100"
+                                            Height="30"
+                                            Background="{TemplateBinding Background}"
+                                            CornerRadius="15">
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                        </Border>
+                                    </ControlTemplate>
+                                </Button.Template>
+                            </Button>
+
+
+                        </StackPanel>
+
+                    </StackPanel>
+
+
+                    <TextBlock
+                        x:Name="errorLabel_uc"
+                        Margin="0,20,0,0"
+                        FontFamily="Montserrat"
+                        FontSize="12"
+                        FontWeight="Medium"
+                        Foreground="#FFDA5353"
+                        Text="System msg"
+                        TextAlignment="center"
+                        TextWrapping="Wrap" />
+
+                </StackPanel>
+                <StackPanel
+                    Grid.Row="1"
+                    Width="600"
+                    Margin="0,450,0,10"
+                    HorizontalAlignment="Center"
+                    Orientation="Vertical">
+
+                    <TextBlock
+                        Margin="0,20,0,0"
+                        FontFamily="Montserrat"
+                        FontSize="13"
+                        FontWeight="Medium"
+                        Foreground="LightGray"
+                        Text="Learning to code is useful no matter what your career ambitions are."
+                        TextAlignment="Center"
+                        TextWrapping="Wrap" />
+
+
+
+                </StackPanel>
+
+
+
+            </Grid>
+
+        </Border>
+
+    </Border>
+
+</Window>
