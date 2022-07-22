@@ -12,37 +12,11 @@ using User = Automation_LVTS.Model.User;
 
 namespace Automation_LVTS.Service
 {
-    public class UserService
+    public class UserService : SharedConfig
     {
-        public List<string> GetAllDBs(string serverName)
-        {
-            List<String> list = new List<String>();
 
-            // SqlConnection myConn = new SqlConnection(@"Data Source=" + ServerName + ";Initial Catalog=master;Integrated Security=True");
-            // Open connection to the database
-            string conString = @"Data Source=" + serverName + ";Integrated Security=True";
-
-            using (SqlConnection con = new SqlConnection(conString))
-            {
-                con.Open();
-
-                // Set up a command with the given query and associate
-                // this with the current connection.
-                using (SqlCommand cmd = new SqlCommand("SELECT name from sys.databases", con))
-                {
-                    using (IDataReader dr = cmd.ExecuteReader())
-                    {
-                        while (dr.Read())
-                        {
-                            list.Add(dr[0].ToString());
-                            Console.WriteLine(dr[0].ToString());
-                        }
-                    }
-                }
-
-            }
-            return null;
-        }
+       
+      
         public bool AddUser_TO_DB(string db, string servern,User u)
         {
             bool val;
@@ -54,7 +28,7 @@ namespace Automation_LVTS.Service
             // start execution 
             watch.Start();
 
-            string logPath = @"C:\Users\YEMBouchouicha\Downloads\longview patch D\db files\longview log files";
+            string logPath = this.LogFolderCreation();
 
 
             // string sqlConnectionString = @"Data Source=(localdb)\MSSQLLOCALDB;Initial Catalog=test;Integrated Security=True";
@@ -89,11 +63,20 @@ namespace Automation_LVTS.Service
 
                 log.Information("Success Message : Script added successfully \n");
                 val = true;
+                this.LoggingSuccess_ScriptLoading(logPath + "/logSuccess_UserAdd" + System.DateTime.Now.ToString("yyyy'-'MM'-'dd'__T__'HH'h__'mm'min_'ss")
+                                            + ".txt", "Date : " + System.DateTime.Now
+                                            + "\nSuccess Message : user "+u.Name+" is added in database "+db+" and server "+servern+" ."
+                                            + $"\nExecution Time: {watch.ElapsedMilliseconds} ms");
             }
             catch (Exception e)
             {
-                log.Error(e, "there is a prob in sql file loaded !");
+                log.Error(e, "there is a prob in sql  !");
                 val = false;
+                this.LoggingError_ScriptLoading(logPath + "/logError_UserAdd" + System.DateTime.Now.ToString("yyyy'-'MM'-'dd'__T__'HH'h__'mm'min_'ss")
+                                            + ".txt", "Date : " + System.DateTime.Now
+                                            + "\nMessage : user " + u.Name + " is not added in database " + db + " and server " + servern + " ."
+                                            + "\nError : "+e.Message+" \n"+e.StackTrace
+                                            + $"\nExecution Time: {watch.ElapsedMilliseconds} ms");
             }
             finally
             {
@@ -105,7 +88,9 @@ namespace Automation_LVTS.Service
             //end of execution time calcul 
             watch.Stop();
             log.Information("end script");
-            return true;
+            return val;
         }
+
+
     }
 }

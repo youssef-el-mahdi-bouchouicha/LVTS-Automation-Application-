@@ -584,6 +584,7 @@
     <Compile Include="Model\UnMarshllingKeys.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="Service\ConfigFeaturesService.cs" />
+    <Compile Include="Service\SharedConfig.cs" />
     <Compile Include="Service\MTService.cs" />
     <Compile Include="Service\OdbcConfigService.cs" />
     <Compile Include="Service\UserService.cs" />

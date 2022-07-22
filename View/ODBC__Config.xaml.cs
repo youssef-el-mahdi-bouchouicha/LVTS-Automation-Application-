@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Automation_LVTS.Model;
+using Automation_LVTS.Service;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,6 +21,8 @@ namespace Automation_LVTS.View
     /// </summary>
     public partial class ODBC__Config : Window
     {
+        OdbcConfig oc = new OdbcConfig();
+        OdbcConfigService ocs = new OdbcConfigService();
         public static BrushConverter errorCol;
         public static Brush brush;
         public ODBC__Config()
@@ -54,6 +58,23 @@ namespace Automation_LVTS.View
                 serverName_odbc.BorderBrush = brush;
                 error_combodb_odbc.Foreground = brush;
 
+            }
+            else
+            {
+                if (ocs.registryOdbc(DS_Name_odbc.Text, comboDB_odbc.SelectedItem.ToString()
+                , serverName_odbc.Text, driver_odbc.Text, Encrypt_odbc.Text, int.Parse(SkipDMLInBatches_odbc.Text)
+                , Trusted_Connection_odbc.Text, TrustServerCertificate_odbc.Text, tb_Type_odbc.Text))
+                {
+                    errorLabel_odbc.Foreground = Brushes.Blue;
+                    errorLabel_odbc.Text = "INFO :  - DataSource created successfuly ! ";
+                    MessageBox.Show("New ODBC Data Source  : " + DS_Name_odbc.Text + " Created successfully", "Create New ODBC Data Source", MessageBoxButton.OK, MessageBoxImage.Information);
+                }
+                else
+                {
+                    errorLabel_odbc.Foreground = brush;
+                    errorLabel_odbc.Text = "Warning : - Please check the Log File ";
+                    MessageBox.Show("The DataSource Name Exist ! Please choose another one ", "Create New ODBC Data Source", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
             }
 
         }

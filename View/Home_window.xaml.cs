@@ -22,7 +22,7 @@ namespace Automation_LVTS.View
     public partial class Home_window : Window
     {
         UserConfig userConfig = new UserConfig();
-        int isopen_uc = 0;
+        
         DataBaseConfig dbConfig = new DataBaseConfig();
        
         ODBC__Config odbcConfig = new ODBC__Config();

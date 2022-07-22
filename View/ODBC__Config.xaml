@@ -285,7 +285,7 @@
                                 Text="Driver" />
 
                             <TextBox
-                                x:Name="domainUN_odbc"
+                                x:Name="driver_odbc"
                                 Height="28"
                                 Margin="0,05,0,0"
                                 Padding="20,0,0,0"

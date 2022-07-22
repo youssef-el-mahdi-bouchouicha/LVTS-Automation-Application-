@@ -121,7 +121,7 @@ namespace Automation_LVTS.View
                 if (cf.val)
                 {
                     errorLabel_dbc.Foreground = Brushes.Blue;
-                    errorLabel_dbc.Text = "INFO :\n- Script installed Successfully  ";
+                    errorLabel_dbc.Text = "INFO :  - Script installed Successfully  ";
                     MessageBox.Show("Script installed Successfully", "MyProgram", MessageBoxButton.OK, MessageBoxImage.Information);
 
                 }
@@ -129,7 +129,7 @@ namespace Automation_LVTS.View
                 else
                 {
                     errorLabel_dbc.Foreground = brush;
-                    errorLabel_dbc.Text = "Warning :\n- Please check the Log File ";
+                    errorLabel_dbc.Text = "Warning : - Please check the Log File ";
                     MessageBox.Show("Script installed with errors ! ", "MyProgram", MessageBoxButton.OK, MessageBoxImage.Warning);
 
                 }

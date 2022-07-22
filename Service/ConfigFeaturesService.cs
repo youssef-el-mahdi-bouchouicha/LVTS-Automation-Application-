@@ -15,40 +15,14 @@ using System.Threading.Tasks;
 
 namespace Automation_LVTS.Service
 {
-    public class ConfigFeaturesService
+    public class ConfigFeaturesService : SharedConfig
     {
         ConfigFeatures cf = new ConfigFeatures();
 
-        public string LogFolderCreation()
-        {
-            string folderName = @"C:\Automation LVTS 2022\Automation LogFolder";
-            // If directory does not exist, create it
-            if (!Directory.Exists(folderName))
-            {
-                Directory.CreateDirectory(folderName);
-                Console.WriteLine(Directory.GetDirectoryRoot(folderName));
-                return folderName;
-            }
-            else
-            {
-                Console.WriteLine(Directory.GetDirectoryRoot(folderName)); ;
-                return folderName;
-            }
-
-        }
-        //fct for a seccess loading script  story   
-        public void LoggingSuccess_ScriptLoading(String s, String ss)
-        {
-            System.IO.File.WriteAllText(s, ss);
-        }
-        //fct for a failed loading script story
-        public void LoggingError_ScriptLoading(String s, String ss)
-        {
-            System.IO.File.WriteAllText(s, ss);
-        }
+        
         public Boolean CreateDatabase(String dbName, String serverName, string filePath)
         {
-            cf.Logpath = LogFolderCreation();
+            cf.Logpath = this.LogFolderCreation();
             cf.DbName = dbName;
             cf.ServerName = serverName;
             cf.FilePath = filePath;
@@ -185,7 +159,7 @@ namespace Automation_LVTS.Service
                     listExErrors += ex.StackTrace + "\n";
                 }
                 //fct declared in Services 
-                this.LoggingError_ScriptLoading(cf.Logpath + "/logError_" + System.DateTime.Now.ToString("yyyy'-'MM'-'dd'__T__'HH'h__'mm'min_'ss")
+                this.LoggingError_ScriptLoading(cf.Logpath + "/DBlogError_" + System.DateTime.Now.ToString("yyyy'-'MM'-'dd'__T__'HH'h__'mm'min_'ss")
                                                     + ".txt", "Date : " + System.DateTime.Now
                                                     + "\nError Message : " + listExErrors
                                                     + "\nException Stacktrace :  "
@@ -199,7 +173,7 @@ namespace Automation_LVTS.Service
             else
             {
                 //fct declared in Services 
-                this.LoggingSuccess_ScriptLoading(cf.Logpath + "/logSuccess_" + System.DateTime.Now.ToString("yyyy'-'MM'-'dd'__T__'HH'h__'mm'min_'ss")
+                this.LoggingSuccess_ScriptLoading(cf.Logpath + "/DBlogSuccess_" + System.DateTime.Now.ToString("yyyy'-'MM'-'dd'__T__'HH'h__'mm'min_'ss")
                                                     + ".txt", "Date : " + System.DateTime.Now
                                                     + "\nSuccess Message : Script added successfully"
                                                     + "\nScript Path : " + filePath

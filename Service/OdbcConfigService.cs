@@ -7,12 +7,17 @@ using System.Threading.Tasks;
 
 namespace Automation_LVTS.Service
 {
-    public class OdbcConfigService
+    public class OdbcConfigService: SharedConfig
     {
         public bool registryOdbc(String name, string dataBase, string server, string driver, string encrypt
            , int skipDMLInBatches, string trusted_Connection, string trustServerCertificate
            , string type)
         {
+            //var for execution time
+            var watch = System.Diagnostics.Stopwatch.StartNew();
+            // start execution 
+            watch.Start();
+            string logPath = this.LogFolderCreation();
             bool test = false;
             RegistryKey lvts_auto = Registry.LocalMachine;
             lvts_auto = lvts_auto.OpenSubKey(@"SOFTWARE\ODBC\ODBC.INI");
@@ -51,12 +56,32 @@ namespace Automation_LVTS.Service
                 //key to  odbc datasources
                 RegistryKey lvts = Registry.LocalMachine.CreateSubKey(@"SOFTWARE\ODBC\ODBC.INI\ODBC Data Sources");
                 lvts.SetValue(name, type);
+
+
+                this.LoggingSuccess_ScriptLoading(logPath + "/ODBC_logSuccess_" + System.DateTime.Now.ToString("yyyy'-'MM'-'dd'__T__'HH'h__'mm'min_'ss")
+                                     + ".txt", "Date : " + System.DateTime.Now
+                                     + "\nMessage : Datasource " + name + " is matched with database named  " + dataBase + " and server " + server + " ."
+
+                                     + $"\nExecution Time: {watch.ElapsedMilliseconds} ms");
+
+                watch.Stop();
                 return true;
 
             }
             else
-            { return false; }
+            {
+                
+                this.LoggingError_ScriptLoading(logPath + "/ODBC_logError_" + System.DateTime.Now.ToString("yyyy'-'MM'-'dd'__T__'HH'h__'mm'min_'ss")
+                                      + ".txt", "Date : " + System.DateTime.Now
+                                      + "\nMessage : Datasource " + name + " is not matched with database named  " + dataBase + " and server " + server + " ."
+                                     
+                                      + $"\nExecution Time: {watch.ElapsedMilliseconds} ms");
 
+                return false;
+            }
+
+            //end of execution time calcul 
+           
 
 
 

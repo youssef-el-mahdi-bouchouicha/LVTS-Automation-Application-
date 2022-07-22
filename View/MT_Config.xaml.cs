@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Automation_LVTS.Model;
+using Automation_LVTS.Service;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,6 +21,10 @@ namespace Automation_LVTS.View
     /// </summary>
     public partial class MT_Config : Window
     {
+
+        MTConfig mtc = new MTConfig();
+        MTService mts = new MTService();
+
         public static BrushConverter errorCol;
         public static Brush brush;
         
@@ -58,6 +64,22 @@ namespace Automation_LVTS.View
                 filepath_mt.BorderBrush = brush;
                 error_combodb_mt.Foreground = brush;
                 error_combods_mt.Foreground = brush;
+            }
+            else
+            {
+                if (mts.Run_MTconfig(serverGroupName_mt.Text, serverName_mt.Text, comboDB_mt.SelectedItem.ToString(), comboDS_mt.SelectedItem.ToString(), int.Parse(managmentPort_mt.Text)) == true)
+                {
+                    errorLabel.Foreground = Brushes.Blue;
+                    errorLabel.Text = "INFO :  - Middel Tier configured successfuly ! ";
+                    MessageBox.Show("Middle tier : ", serverGroupName_mt.Text + "Is configured with no errors", MessageBoxButton.OKCancel, MessageBoxImage.Information);
+                }
+                else
+                {
+                    errorLabel.Foreground =brush;
+                    errorLabel.Text = "INFO :  - Middel Tier is not configured ! ";
+                    MessageBox.Show("Middle tier Configuration : ", serverGroupName_mt.Text + "Is not configured", MessageBoxButton.OK, MessageBoxImage.Error);
+
+                }
             }
         }
 

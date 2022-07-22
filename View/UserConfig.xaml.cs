@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Automation_LVTS.Model;
+using Automation_LVTS.Service;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,13 +22,20 @@ namespace Automation_LVTS.View
     /// </summary>
     public partial class UserConfig : Window
     {
+        User us = new User();
+        UserService uss = new UserService();
         public static BrushConverter errorCol;
         public static Brush brush;
         public UserConfig()
         {
             InitializeComponent();
+            foreach (var item in uss.GetAllDBs("."))
+            {
+                comboDB_uc.Items.Add(item);
+            }
             errorCol = new BrushConverter();
             brush = (Brush)errorCol.ConvertFrom("#FFDA5353");
+            
         }
         private void Window_MouseDown(object sender, MouseButtonEventArgs e)
         {
@@ -57,6 +66,24 @@ namespace Automation_LVTS.View
                 ServerName_uc.BorderBrush = brush;
                 domainUN_uc.BorderBrush = brush;
                 error_combod_uc.Foreground = brush;
+            }
+            else
+            {
+                User user = new User(login_name_uc.Text, Username_uc.Text, domainUN_uc.Text, int.Parse(Current_User_uc.Text));
+                us = user;
+                if(uss.AddUser_TO_DB(comboDB_uc.SelectedItem.ToString(), ServerName_uc.Text, user) == true)
+                {
+                    errorLabel_uc.Foreground = Brushes.Blue;
+                    errorLabel_uc.Text = "INFO :  - User created successfuly ! ";
+                    MessageBox.Show("User : " + Username_uc.Text + " is created successfully  ", "Create New User", MessageBoxButton.OK, MessageBoxImage.Information);
+                }
+                else
+                {
+                    errorLabel_uc.Foreground = brush;
+                    errorLabel_uc.Text = "Warning : - Please check the Log File ";
+                    MessageBox.Show("User: " + Username_uc.Text + " is not created !", "MyProgram", MessageBoxButton.OK, MessageBoxImage.Warning);
+                }
+
             }
         }
 

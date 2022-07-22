@@ -14,11 +14,17 @@ using System.Xml.Serialization;
 
 namespace Automation_LVTS.Service
 {
-    public class MTService
+    public class MTService : SharedConfig
     {
+        string logpath;
 
         public int add_in_ServerGroup(string server_group_name, string serverName, string db)
         {
+            //var for execution time
+            var watch = System.Diagnostics.Stopwatch.StartNew();
+            // start execution 
+            watch.Start();
+            logpath = this.LogFolderCreation();
             int idSG = 0;
             string sqlConnectionString = @"Data Source=" + serverName + ";Initial Catalog=" + db + ";Integrated Security=True";
             var log = new LoggerConfiguration().WriteTo.Console().CreateLogger();
@@ -53,10 +59,21 @@ namespace Automation_LVTS.Service
 
                 log.Information("Success Message : Script installed successfully \nAdd to serverGroup");
                 idSG = Get_Server_Group_ID(db, serverName, server_group_name);
+                this.LoggingSuccess_ScriptLoading(logpath + "/logSuccess_ServerGroup" + System.DateTime.Now.ToString("yyyy'-'MM'-'dd'__T__'HH'h__'mm'min_'ss")
+                                           + ".txt", "Date : " + System.DateTime.Now
+                                           + "\nSuccess Message : serverGroup added  "
+                                           + $"\nExecution Time: {watch.ElapsedMilliseconds} ms");
+                watch.Stop();
 
             }
             catch (Exception e)
             {
+                this.LoggingError_ScriptLoading(logpath + "/logSuccess_ServerGroup" + System.DateTime.Now.ToString("yyyy'-'MM'-'dd'__T__'HH'h__'mm'min_'ss")
+                                           + ".txt", "Date : " + System.DateTime.Now
+                                           + "\nError Message : can't add serverGroup"
+                                           + "\n Error : " + e.Message+ " \n"+ e.StackTrace
+                                           + $"\nExecution Time: {watch.ElapsedMilliseconds} ms");
+
 
                 log.Error(e, "there is a prob in sql !");
 
@@ -72,6 +89,7 @@ namespace Automation_LVTS.Service
                 return 0;
             else
                 return idSG;
+           
         }
 
         public int Get_Server_Group_ID(string db_config_name, string serverName, string serverGroup_Name)
@@ -123,11 +141,20 @@ namespace Automation_LVTS.Service
                 server.ConnectionContext.ExecuteNonQuery(sql);
 
                 log.Information("Success Message : Script installed successfully \nAdd to  ServerMachine");
+
+                this.LoggingSuccess_ScriptLoading(logpath + "/logSuccess_ServerMachine" + System.DateTime.Now.ToString("yyyy'-'MM'-'dd'__T__'HH'h__'mm'min_'ss")
+                                           + ".txt", "Date : " + System.DateTime.Now
+                                           + "\nSuccess Message : serverMachine  added  ");
                 return true;
             }
             catch (Exception e)
             {
                 log.Error(e, "there is a prob in sql !");
+
+                this.LoggingError_ScriptLoading(logpath + "/logSuccess_ServerMachine" + System.DateTime.Now.ToString("yyyy'-'MM'-'dd'__T__'HH'h__'mm'min_'ss")
+                                           + ".txt", "Date : " + System.DateTime.Now
+                                           + "\nError Message : can't add serverMachine"
+                                           + "\n Error : " + e.Message + " \n" + e.StackTrace);
                 return false;
             }
             finally
@@ -166,11 +193,18 @@ namespace Automation_LVTS.Service
             {
                 server.ConnectionContext.ExecuteNonQuery(sql);
                 Log.Information("Success Message : Script installed successfully \nAdd to dataSource");
+                this.LoggingSuccess_ScriptLoading(logpath + "/logSuccess_DataSource" + System.DateTime.Now.ToString("yyyy'-'MM'-'dd'__T__'HH'h__'mm'min_'ss")
+                                           + ".txt", "Date : " + System.DateTime.Now
+                                           + "\nSuccess Message : DataSource MT  added  ");
                 return true;
             }
             catch (Exception e)
             {
                 Log.Error(e, "there is a prob in sql !");
+                this.LoggingError_ScriptLoading(logpath + "/logSuccess_mt_DataSource" + System.DateTime.Now.ToString("yyyy'-'MM'-'dd'__T__'HH'h__'mm'min_'ss")
+                                           + ".txt", "Date : " + System.DateTime.Now
+                                           + "\nError Message : can't add Datasource to MT"
+                                           + "\n Error : " + e.Message + " \n" + e.StackTrace);
                 return false;
             }
             finally
@@ -239,10 +273,6 @@ namespace Automation_LVTS.Service
             if (foldername == null)
             {
                 string path = @"C:\Automation LVTS 2022\Azman.xml";
-
-                // The line below will create a file my_file.py in
-                // the Python_Files folder in D:\ drive
-                // using (FileStream fs = File.Create(path))
                 Console.WriteLine("The Azman File Exist in " + path);
                 return path;
 
@@ -250,44 +280,10 @@ namespace Automation_LVTS.Service
             else
             {
                 string path = @"C:\Automation LVTS 2022\" + foldername + @"\Azman.xml";
-
-                // The line below will create a file my_file.py in
-                // the Python_Files folder in D:\ drive
-                //using (FileStream fs = File.Create(path))
                 File.Copy(@"C:\Automation LVTS 2022\Azman.xml", path);
                 return path;
             }
         }
-
-
-
-        public List<String> GetAllDB(string server_name)
-        {
-            List<String> list = new List<String>();
-            // SqlConnection myConn = new SqlConnection(@"Data Source=" + ServerName + ";Initial Catalog=master;Integrated Security=True");
-            // Open connection to the database
-            string conString = @"Data Source=" + server_name + ";Integrated Security=True";
-
-            using (SqlConnection con = new SqlConnection(conString))
-            {
-                con.Open();
-
-                // Set up a command with the given query and associate
-                // this with the current connection.
-                using (SqlCommand cmd = new SqlCommand("SELECT name from sys.databases", con))
-                {
-                    using (IDataReader dr = cmd.ExecuteReader())
-                    {
-                        while (dr.Read())
-                        {
-                            list.Add(dr[0].ToString());
-                        }
-                    }
-                }
-            }
-            return list;
-        }
-
 
         public bool Add_License_Keys(string pathfile, string mktDB, string serverName)
         {
@@ -316,8 +312,9 @@ namespace Automation_LVTS.Service
                     server.ConnectionContext.ExecuteNonQuery(sqlCommand);
                     Console.WriteLine(item.Product + " : " + item.Key);
                 }
-                catch (Exception ex)
+                catch (Exception )
                 {
+                    
                     Console.WriteLine("tzedouuuuuch ");
                 }
             }
@@ -328,14 +325,54 @@ namespace Automation_LVTS.Service
             try
             {
                 server.ConnectionContext.ExecuteNonQuery(sqlCommand);
+
+                this.LoggingSuccess_ScriptLoading(logpath + "/logSuccess_LicenseKeys" + System.DateTime.Now.ToString("yyyy'-'MM'-'dd'__T__'HH'h__'mm'min_'ss")
+                                       + ".txt", "Date : " + System.DateTime.Now
+                                       + "\nSuccess Message : License Keys added  ");
                 Console.WriteLine("Client String :" + linedataServicesLicenseInformation.ClientString);
             }
             catch (Exception ex)
             {
+                this.LoggingError_ScriptLoading(logpath + "/logSuccess_mt_LicenseKeys" + System.DateTime.Now.ToString("yyyy'-'MM'-'dd'__T__'HH'h__'mm'min_'ss")
+                                          + ".txt", "Date : " + System.DateTime.Now
+                                          + "\nError Message : can't add License Keys to MT"
+                                          + "\n Error : " + ex.Message + " \n" + ex.StackTrace);
                 Console.WriteLine("tzedouuuuuchhhhh ");
             }
 
             return true;
         }
+
+
+
+        //public List<String> GetAllDB(string server_name)
+        //{
+        //    List<String> list = new List<String>();
+        //    // SqlConnection myConn = new SqlConnection(@"Data Source=" + ServerName + ";Initial Catalog=master;Integrated Security=True");
+        //    // Open connection to the database
+        //    string conString = @"Data Source=" + server_name + ";Integrated Security=True";
+
+        //    using (SqlConnection con = new SqlConnection(conString))
+        //    {
+        //        con.Open();
+
+        //        // Set up a command with the given query and associate
+        //        // this with the current connection.
+        //        using (SqlCommand cmd = new SqlCommand("SELECT name from sys.databases", con))
+        //        {
+        //            using (IDataReader dr = cmd.ExecuteReader())
+        //            {
+        //                while (dr.Read())
+        //                {
+        //                    list.Add(dr[0].ToString());
+        //                }
+        //            }
+        //        }
+        //    }
+        //    return list;
+        //}
+
+
+
     }
 }
