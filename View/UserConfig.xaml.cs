@@ -29,9 +29,12 @@ namespace Automation_LVTS.View
         public UserConfig()
         {
             InitializeComponent();
-            foreach (var item in uss.GetAllDBs("."))
+            if (uss.GetAllDBs() != null)
             {
-                comboDB_uc.Items.Add(item);
+                foreach (var item in uss.GetAllDBs())
+                {
+                    comboDB_uc.Items.Add(item);
+                }
             }
             errorCol = new BrushConverter();
             brush = (Brush)errorCol.ConvertFrom("#FFDA5353");
@@ -55,9 +58,11 @@ namespace Automation_LVTS.View
 
         private void btnRun_uc_Click(object sender, RoutedEventArgs e)
         {
-            
+
+            Mouse.OverrideCursor = Cursors.Wait;
+
             if (login_name_uc.Text=="" || Username_uc.Text == "" || ServerName_uc.Text == ""
-                || comboDB_uc.SelectedItem== null || domainUN_uc.Text == "")
+                || comboDB_uc.SelectedItem.ToString() == "" || domainUN_uc.Text == "")
             {
                 errorLabel_uc.Text = "All fields are required \nPlease check your input before running the script !\nThank you !";
                 errorLabel_uc.FontSize =15;
@@ -69,9 +74,9 @@ namespace Automation_LVTS.View
             }
             else
             {
-                User user = new User(login_name_uc.Text, Username_uc.Text, domainUN_uc.Text, int.Parse(Current_User_uc.Text));
+                User user = new User(login_name_uc.Text, Username_uc.Text, domainUN_uc.Text, int.Parse(Current_User_uc.Text), comboDB_uc.SelectedItem.ToString());
                 us = user;
-                if(uss.AddUser_TO_DB(comboDB_uc.SelectedItem.ToString(), ServerName_uc.Text, user) == true)
+                if(uss.AddUser_TO_DB(comboDB_uc.SelectedItem.ToString(), ServerName_uc.Text, user) )
                 {
                     errorLabel_uc.Foreground = Brushes.Blue;
                     errorLabel_uc.Text = "INFO :  - User created successfuly ! ";
@@ -85,6 +90,8 @@ namespace Automation_LVTS.View
                 }
 
             }
+
+            Mouse.OverrideCursor = Cursors.Arrow;
         }
 
        

@@ -1,4 +1,5 @@
-﻿using Microsoft.Win32;
+﻿
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace Automation_LVTS.Service
 {
     public class OdbcConfigService: SharedConfig
     {
-        public bool registryOdbc(String name, string dataBase, string server, string driver, string encrypt
+        public bool registryOdbc(string name, string dataBase, string server, string driver, string encrypt
            , int skipDMLInBatches, string trusted_Connection, string trustServerCertificate
            , string type)
         {
@@ -28,11 +29,13 @@ namespace Automation_LVTS.Service
                 {
                     test = true;
                 }
+                Console.WriteLine("aaaaaa"+s);
             }
             if (test == false)
             {
                 Console.WriteLine(" __________ after add __________");
-                lvts_auto = Registry.LocalMachine.CreateSubKey(@"SOFTWARE\ODBC\ODBC.INI\" + name);
+                lvts_auto = Registry.LocalMachine.CreateSubKey("SOFTWARE\\ODBC\\ODBC.INI\\" + name);
+                
                 string[] list3 = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\ODBC\ODBC.INI").GetSubKeyNames();
                 foreach (string s in list3)
                 {

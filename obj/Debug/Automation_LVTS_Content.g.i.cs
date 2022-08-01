@@ -41,5 +41,6 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("webfonts/fa-brands-400.svg")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("webfonts/fa-regular-400.svg")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("webfonts/fa-solid-900.svg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("microsoft.sqlserver.batchparser.dll")]
 
 

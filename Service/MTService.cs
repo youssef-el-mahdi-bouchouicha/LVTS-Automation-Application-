@@ -288,6 +288,7 @@ namespace Automation_LVTS.Service
         public bool Add_License_Keys(string pathfile, string mktDB, string serverName)
         {
             string sqlCommand = "";
+            bool val = false;
             List<LinedataServicesLicenseInformationProductKeyTouple> list = new List<LinedataServicesLicenseInformationProductKeyTouple>();
             LinedataServicesLicenseInformation linedataServicesLicenseInformation = new LinedataServicesLicenseInformation();
             using (TextReader reader = new StreamReader(@"C:\Users\YEMBouchouicha\Downloads\QA_licenses_012714_with_SDK.xml"))
@@ -300,36 +301,39 @@ namespace Automation_LVTS.Service
             SqlConnection conn = new SqlConnection(sqlConnectionString);
             Server server = new Server(new ServerConnection(conn));
 
-            foreach (LinedataServicesLicenseInformationProductKeyTouple item in linedataServicesLicenseInformation.ProductKeyCollection)
-            {
-                sqlCommand = "INSERT INTO  [ymb_81].[dbo].[registry]" +
-                   "([section],[entry],[value])" +
-                   "VALUES" +
-                   "('License', '" + item.Product + "', '" + item.Key + "')";
-                //Console.WriteLine(item.Product +" : " +item.Key);
-                try
-                {
-                    server.ConnectionContext.ExecuteNonQuery(sqlCommand);
-                    Console.WriteLine(item.Product + " : " + item.Key);
-                }
-                catch (Exception )
-                {
-                    
-                    Console.WriteLine("tzedouuuuuch ");
-                }
-            }
-            sqlCommand = "INSERT INTO  [ymb_81].[dbo].[registry]" +
-                   "([section],[entry],[value])" +
-                   "VALUES" +
-                   "('License', 'Client String', '" + linedataServicesLicenseInformation.ClientString + "')";
             try
             {
-                server.ConnectionContext.ExecuteNonQuery(sqlCommand);
+
+                            foreach (LinedataServicesLicenseInformationProductKeyTouple item in linedataServicesLicenseInformation.ProductKeyCollection)
+                        {
+                            sqlCommand = "INSERT INTO  [ymb_81].[dbo].[registry]" +
+                               "([section],[entry],[value])" +
+                               "VALUES" +
+                               "('License', '" + item.Product + "', '" + item.Key + "')";
+                            //Console.WriteLine(item.Product +" : " +item.Key);
+                            try
+                            {
+                                server.ConnectionContext.ExecuteNonQuery(sqlCommand);
+                                Console.WriteLine(item.Product + " : " + item.Key);
+                            }
+                            catch (Exception )
+                            {
+                    
+                                Console.WriteLine("tzedouuuuuch ");
+                            }
+                        }
+                        sqlCommand = "INSERT INTO  [ymb_81].[dbo].[registry]" +
+                               "([section],[entry],[value])" +
+                               "VALUES" +
+                               "('License', 'Client String', '" + linedataServicesLicenseInformation.ClientString + "')";
+            
+                            server.ConnectionContext.ExecuteNonQuery(sqlCommand);
 
                 this.LoggingSuccess_ScriptLoading(logpath + "/logSuccess_LicenseKeys" + System.DateTime.Now.ToString("yyyy'-'MM'-'dd'__T__'HH'h__'mm'min_'ss")
                                        + ".txt", "Date : " + System.DateTime.Now
                                        + "\nSuccess Message : License Keys added  ");
                 Console.WriteLine("Client String :" + linedataServicesLicenseInformation.ClientString);
+                val = true;
             }
             catch (Exception ex)
             {
@@ -338,39 +342,15 @@ namespace Automation_LVTS.Service
                                           + "\nError Message : can't add License Keys to MT"
                                           + "\n Error : " + ex.Message + " \n" + ex.StackTrace);
                 Console.WriteLine("tzedouuuuuchhhhh ");
+                val=false;
             }
 
-            return true;
+            return val;
         }
 
 
 
-        //public List<String> GetAllDB(string server_name)
-        //{
-        //    List<String> list = new List<String>();
-        //    // SqlConnection myConn = new SqlConnection(@"Data Source=" + ServerName + ";Initial Catalog=master;Integrated Security=True");
-        //    // Open connection to the database
-        //    string conString = @"Data Source=" + server_name + ";Integrated Security=True";
-
-        //    using (SqlConnection con = new SqlConnection(conString))
-        //    {
-        //        con.Open();
-
-        //        // Set up a command with the given query and associate
-        //        // this with the current connection.
-        //        using (SqlCommand cmd = new SqlCommand("SELECT name from sys.databases", con))
-        //        {
-        //            using (IDataReader dr = cmd.ExecuteReader())
-        //            {
-        //                while (dr.Read())
-        //                {
-        //                    list.Add(dr[0].ToString());
-        //                }
-        //            }
-        //        }
-        //    }
-        //    return list;
-        //}
+       
 
 
 

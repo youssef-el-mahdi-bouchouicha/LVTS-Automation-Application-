@@ -11,6 +11,7 @@ namespace Automation_LVTS.Service
 {
     public class SharedConfig
     {
+        public string Servername { get; set; }
         public string LogFolderCreation()
         {
             string folderName = @"C:\Automation LVTS 2022\Automation LogFolder";
@@ -39,34 +40,47 @@ namespace Automation_LVTS.Service
             System.IO.File.WriteAllText(s, ss);
         }
 
-        public List<string> GetAllDBs(string serverName)
+        public List<string> GetAllDBs()
         {
             List<String> list = new List<String>();
 
             // SqlConnection myConn = new SqlConnection(@"Data Source=" + ServerName + ";Initial Catalog=master;Integrated Security=True");
             // Open connection to the database
-            string conString = @"Data Source=" + serverName + ";Integrated Security=True";
+            string conString = @"Data Source=" +Servername+ ";Integrated Security=True";
+
 
             using (SqlConnection con = new SqlConnection(conString))
             {
-                con.Open();
-
-                // Set up a command with the given query and associate
-                // this with the current connection.
-                using (SqlCommand cmd = new SqlCommand("SELECT name from sys.databases", con))
+                try
                 {
-                    using (IDataReader dr = cmd.ExecuteReader())
+                    con.Open();
+                    // Set up a command with the given query and associate
+                    // this with the current connection.
+                    using (SqlCommand cmd = new SqlCommand("SELECT name from sys.databases", con))
                     {
-                        while (dr.Read())
+                        using (IDataReader dr = cmd.ExecuteReader())
                         {
-                            list.Add(dr[0].ToString());
-                            Console.WriteLine(dr[0].ToString());
+                            while (dr.Read())
+                            {
+                                list.Add(dr[0].ToString());
+                                Console.WriteLine(dr[0].ToString());
+                            }
                         }
                     }
+
+
+                    return list;
+                }
+                catch (Exception)
+                {
+
+                    return null;
                 }
 
+
+
             }
-            return list;
-        }
+        }   
+        
     }
 }

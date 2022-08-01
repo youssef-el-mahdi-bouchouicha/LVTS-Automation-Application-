@@ -21,6 +21,7 @@ namespace Automation_LVTS.View
     /// </summary>
     public partial class Home_window : Window
     {
+        public string Servername { get; set; }
         UserConfig userConfig = new UserConfig();
         
         DataBaseConfig dbConfig = new DataBaseConfig();

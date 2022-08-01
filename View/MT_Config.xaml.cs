@@ -1,5 +1,6 @@
 ﻿using Automation_LVTS.Model;
 using Automation_LVTS.Service;
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,6 +32,20 @@ namespace Automation_LVTS.View
         public MT_Config()
         {
             InitializeComponent();
+            if (mts.GetAllDBs() != null)
+            {
+                foreach (var item in mts.GetAllDBs())
+                {
+                    comboDB_mt.Items.Add(item);
+                }
+            }
+            RegistryKey lvts_auto = Registry.LocalMachine;
+            string[] list3 = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\ODBC\ODBC.INI").GetSubKeyNames();
+            foreach (string s in list3)
+            {
+                Console.WriteLine(s);
+                comboDS_mt.Items.Add(s);
+            }
             errorCol = new BrushConverter();
             brush = (Brush) errorCol.ConvertFrom("#FFDA5353");
         }
@@ -52,6 +67,7 @@ namespace Automation_LVTS.View
 
         private void btnRun_mt_Click(object sender, RoutedEventArgs e)
         {
+            Mouse.OverrideCursor = Cursors.Wait;
             if (serverName_mt.Text == "" || serverGroupName_mt.Text == ""
                 || comboDB_mt.SelectedItem == null || comboDS_mt.SelectedItem == null
                 || managmentPort_mt.Text == "")
@@ -81,8 +97,55 @@ namespace Automation_LVTS.View
 
                 }
             }
+
+            Mouse.OverrideCursor = Cursors.Arrow;
         }
 
-        
+        private void btnChooseKF_mt_Click(object sender, RoutedEventArgs e)
+        {
+            Mouse.OverrideCursor = Cursors.Wait;
+            OpenFileDialog dialog = new OpenFileDialog();
+            if (dialog.ShowDialog() == true)
+            {
+                //cf.ServerName = @"(localdb)\MSSQLLOCALDB";
+                // var sr = new StreamReader(dialog.FileName);
+                filepath_mt.Text = dialog.FileName;
+                Console.WriteLine(System.IO.Path.GetFullPath(filepath_mt.Text));
+                //Console.WriteLine(cf.GoScriptInstall(cf.DbName,cf.ServerName, cf.FilePath));
+
+                if (filepath_mt.Text == "")
+                {
+                    MessageBox.Show("Please select your License Key file ", "My Automation Program", MessageBoxButton.OK, MessageBoxImage.Warning);
+
+                }
+                else
+                {
+                    MessageBox.Show("Your File :\n " + filepath_mt.Text + "\n is selected Successfully  ", "MyProgram", MessageBoxButton.OK, MessageBoxImage.Information);
+
+                }
+            }
+
+            Mouse.OverrideCursor = Cursors.Arrow;
+        }
+
+        private void btnAddKeys_mt_Click(object sender, RoutedEventArgs e)
+        {
+
+            Mouse.OverrideCursor = Cursors.Wait;
+            if (filepath_mt.Text=="" || comboDB_mt.SelectedItem==null || serverName_mt.Text=="")
+            {
+                errorLabel.Foreground = brush;
+                filepath_mt.BorderBrush = brush;
+                serverName_mt.BorderBrush = brush;
+                error_combodb_mt.Foreground= brush;
+                errorLabel.Text = "INFO :  - FilePath is required ! \nPlease select your License Key file ! ";
+            }
+            else
+            {
+                mts.Add_License_Keys(filepath_mt.Text,comboDB_mt.SelectedItem.ToString(),serverName_mt.Text);
+            }
+
+            Mouse.OverrideCursor = Cursors.Arrow;
+        }
     }
 }

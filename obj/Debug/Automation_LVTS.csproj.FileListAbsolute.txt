@@ -293,3 +293,593 @@ C:\Users\YEMBouchouicha\source\repos\WPF-AutomationApp\Automation_LVTS\bin\Debug
 C:\Users\YEMBouchouicha\source\repos\WPF-AutomationApp\Automation_LVTS\bin\Debug\Newtonsoft.Json.Bson.xml
 C:\Users\YEMBouchouicha\source\repos\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Collections.Immutable.xml
 C:\Users\YEMBouchouicha\source\repos\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Reflection.Metadata.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.BatchParser.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Automation_LVTS.exe.config
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Automation_LVTS.exe
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Automation_LVTS.pdb
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Azure.Core.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Azure.Identity.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Antiforgery.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Authorization.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.DataProtection.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Html.Abstractions.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Http.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Mvc.Razor.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Razor.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Razor.Runtime.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Routing.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.CodeAnalysis.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.DependencyModel.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.FileProviders.Composite.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Localization.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.ObjectPool.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.WebEncoders.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Identity.Client.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Net.Http.Headers.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Assessment.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Assessment.Types.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.BatchParserClient.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.ConnectionInfoExtended.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Diagnostics.Strace.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Dmf.Common.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Dmf.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.Assessment.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.Collector.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.SqlParser.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.Utility.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.UtilityEnum.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.XEvent.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.PolicyEnum.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.RegSvrEnum.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Smo.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.SmoExtended.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.SqlClrProvider.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.SqlTDiagm.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.SString.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.WmiEnum.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Win32.Registry.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Newtonsoft.Json.Bson.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Serilog.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Serilog.Sinks.Console.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Buffers.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Collections.Immutable.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Data.SqlClient.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Memory.Data.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Memory.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Reflection.Metadata.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Security.AccessControl.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Security.Cryptography.ProtectedData.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Security.Cryptography.Xml.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Security.Permissions.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Text.Json.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.ValueTuple.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Azure.Core.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Azure.Identity.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Antiforgery.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Authentication.Abstractions.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Authentication.Core.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Authorization.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Authorization.Policy.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.DataProtection.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Diagnostics.Abstractions.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Html.Abstractions.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Http.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.JsonPatch.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Mvc.Core.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Mvc.DataAnnotations.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Mvc.Formatters.Json.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Mvc.Razor.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Mvc.Razor.Extensions.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Mvc.TagHelpers.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Mvc.ViewFeatures.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Razor.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Razor.Language.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Razor.Runtime.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Routing.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.CodeAnalysis.pdb
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.CodeAnalysis.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.CodeAnalysis.CSharp.pdb
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.CodeAnalysis.CSharp.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.CodeAnalysis.Razor.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Data.SqlClient.pdb
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Data.SqlClient.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.FileProviders.Composite.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Localization.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Localization.Abstractions.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.ObjectPool.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.WebEncoders.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Identity.Client.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Net.Http.Headers.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Assessment.Types.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.ConnectionInfo.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.ConnectionInfoExtended.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Dmf.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Dmf.Common.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.Collector.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.Utility.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.UtilityEnum.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.XEvent.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.PolicyEnum.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.RegSvrEnum.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Smo.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.SmoExtended.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.SqlEnum.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Types.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.WmiEnum.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Newtonsoft.Json.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Newtonsoft.Json.Bson.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Serilog.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\Serilog.Sinks.Console.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Buffers.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Collections.Immutable.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Data.SqlClient.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Memory.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Memory.Data.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Reflection.Metadata.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Security.AccessControl.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Security.Permissions.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Text.Json.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.ValueTuple.xml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\obj\Debug\Automation_LVTS.csproj.AssemblyReference.cache
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\obj\Debug\MainWindow.g.cs
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\obj\Debug\View\DataBaseConfig.g.cs
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\obj\Debug\View\Home_window.g.cs
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\obj\Debug\View\LoginView.g.cs
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\obj\Debug\View\MT_Config.g.cs
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\obj\Debug\View\ODBC__Config.g.cs
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\obj\Debug\View\UserConfig.g.cs
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\obj\Debug\App.g.cs
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\obj\Debug\Automation_LVTS_Content.g.cs
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\obj\Debug\Automation_LVTS_MarkupCompile.cache
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\obj\Debug\Automation_LVTS_MarkupCompile.lref
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\obj\Debug\MainWindow.baml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\obj\Debug\View\DataBaseConfig.baml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\obj\Debug\View\Home_window.baml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\obj\Debug\View\LoginView.baml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\obj\Debug\View\MT_Config.baml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\obj\Debug\View\ODBC__Config.baml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\obj\Debug\View\UserConfig.baml
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\obj\Debug\Automation_LVTS.g.resources
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\obj\Debug\Automation_LVTS.Properties.Resources.resources
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\obj\Debug\Automation_LVTS.csproj.GenerateResource.cache
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\obj\Debug\Automation_LVTS.csproj.CoreCompileInputs.cache
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\obj\Debug\Automation_LVTS.csproj.CopyComplete
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\obj\Debug\Automation_LVTS.exe
+C:\Users\mahdi\Desktop\WPF-AutomationApp\Automation_LVTS\obj\Debug\Automation_LVTS.pdb
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.DiaSymReader.Native.x86.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.DiaSymReader.Native.amd64.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.BatchParser.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Automation_LVTS.exe.config
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Automation_LVTS.exe
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Automation_LVTS.pdb
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Azure.Core.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Azure.Identity.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Antiforgery.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Authentication.Core.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Authorization.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.DataProtection.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Html.Abstractions.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Http.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Http.Extensions.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.JsonPatch.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Mvc.Core.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Mvc.Razor.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Razor.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Razor.Language.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Razor.Runtime.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Routing.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.WebUtilities.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.CodeAnalysis.CSharp.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.CodeAnalysis.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.CodeAnalysis.Razor.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Data.SqlClient.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.DotNet.PlatformAbstractions.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.DependencyModel.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.FileProviders.Composite.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Localization.Abstractions.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Localization.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.ObjectPool.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Options.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.WebEncoders.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Identity.Client.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.IdentityModel.Logging.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Net.Http.Headers.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Assessment.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Assessment.Types.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.BatchParserClient.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.ConnectionInfo.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.ConnectionInfoExtended.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Diagnostics.Strace.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Dmf.Common.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Dmf.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.Assessment.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.Collector.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.SqlParser.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.Utility.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.UtilityEnum.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.XEvent.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.PolicyEnum.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.RegSvrEnum.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Smo.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.SmoExtended.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.SqlClrProvider.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.SqlEnum.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.SqlTDiagm.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.SString.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.WmiEnum.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Win32.Registry.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Newtonsoft.Json.Bson.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Newtonsoft.Json.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Serilog.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Serilog.Sinks.Console.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Buffers.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Collections.Immutable.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.ComponentModel.Annotations.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Data.SqlClient.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Memory.Data.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Memory.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Numerics.Vectors.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Reflection.Metadata.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Security.AccessControl.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Security.Cryptography.ProtectedData.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Security.Cryptography.Xml.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Security.Permissions.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Security.Principal.Windows.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Text.Encoding.CodePages.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Text.Encodings.Web.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Text.Json.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.ValueTuple.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Xceed.Wpf.AvalonDock.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Xceed.Wpf.Toolkit.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Azure.Core.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Azure.Identity.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Antiforgery.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Authentication.Core.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Authorization.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Authorization.Policy.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.DataProtection.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Diagnostics.Abstractions.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Html.Abstractions.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Http.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Http.Extensions.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.JsonPatch.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Mvc.Abstractions.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Mvc.Core.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Mvc.DataAnnotations.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Mvc.Formatters.Json.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Mvc.Razor.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Mvc.Razor.Extensions.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Mvc.TagHelpers.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Mvc.ViewFeatures.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Razor.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Razor.Language.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Razor.Runtime.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Routing.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.Routing.Abstractions.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.AspNetCore.WebUtilities.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.CodeAnalysis.pdb
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.CodeAnalysis.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.CodeAnalysis.CSharp.pdb
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.CodeAnalysis.CSharp.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.CodeAnalysis.Razor.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Data.SqlClient.pdb
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Data.SqlClient.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.FileProviders.Composite.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Localization.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Localization.Abstractions.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.ObjectPool.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Options.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Extensions.WebEncoders.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Identity.Client.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.IdentityModel.Logging.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.Net.Http.Headers.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Assessment.Types.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.ConnectionInfo.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.ConnectionInfoExtended.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Dmf.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Dmf.Common.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.Collector.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.CollectorEnum.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.RegisteredServers.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.Sdk.Sfc.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.Utility.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.UtilityEnum.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.XEvent.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.XEventDbScoped.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.XEventDbScopedEnum.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Management.XEventEnum.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.PolicyEnum.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.RegSvrEnum.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.ServiceBrokerEnum.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Smo.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.SmoExtended.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.SqlEnum.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.SqlWmiManagement.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.Types.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Microsoft.SqlServer.WmiEnum.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Newtonsoft.Json.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Newtonsoft.Json.Bson.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Serilog.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\Serilog.Sinks.Console.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Buffers.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Collections.Immutable.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Data.SqlClient.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Memory.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Memory.Data.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Numerics.Vectors.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Reflection.Metadata.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Security.AccessControl.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Security.Permissions.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Security.Principal.Windows.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Text.Encodings.Web.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Text.Json.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\System.ValueTuple.xml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\obj\Debug\Automation_LVTS.csproj.AssemblyReference.cache
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\obj\Debug\MainWindow.g.cs
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\obj\Debug\View\DataBaseConfig.g.cs
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\obj\Debug\View\Home_window.g.cs
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\obj\Debug\View\LoginView.g.cs
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\obj\Debug\View\MT_Config.g.cs
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\obj\Debug\View\ODBC__Config.g.cs
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\obj\Debug\View\UserConfig.g.cs
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\obj\Debug\App.g.cs
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\obj\Debug\Automation_LVTS_Content.g.cs
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\obj\Debug\Automation_LVTS_MarkupCompile.cache
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\obj\Debug\Automation_LVTS_MarkupCompile.lref
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\obj\Debug\MainWindow.baml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\obj\Debug\View\DataBaseConfig.baml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\obj\Debug\View\Home_window.baml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\obj\Debug\View\LoginView.baml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\obj\Debug\View\MT_Config.baml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\obj\Debug\View\ODBC__Config.baml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\obj\Debug\View\UserConfig.baml
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\obj\Debug\Automation_LVTS.g.resources
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\obj\Debug\Automation_LVTS.Properties.Resources.resources
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\obj\Debug\Automation_LVTS.csproj.GenerateResource.cache
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\obj\Debug\Automation_LVTS.csproj.CoreCompileInputs.cache
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\obj\Debug\Automation_LVTS.csproj.CopyComplete
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\obj\Debug\Automation_LVTS.exe
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\obj\Debug\Automation_LVTS.pdb

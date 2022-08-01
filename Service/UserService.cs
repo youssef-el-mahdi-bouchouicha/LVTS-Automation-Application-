@@ -8,6 +8,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Automation_LVTS.Model;
 using User = Automation_LVTS.Model.User;
 
 namespace Automation_LVTS.Service
@@ -19,7 +20,7 @@ namespace Automation_LVTS.Service
       
         public bool AddUser_TO_DB(string db, string servern,User u)
         {
-            bool val;
+            bool val=false;
             //var for execution time
             var watch = System.Diagnostics.Stopwatch.StartNew();
             //var for logging in console and in specific file 
@@ -40,26 +41,21 @@ namespace Automation_LVTS.Service
             // FileInfo file = new FileInfo(path);
 
             // string script = File.ReadAllText(path);
-            string script = "USE[" + db + "]"
-                + "\nGO"
-
+            string script = "USE[" + db +"]"
                 + "\nDECLARE @return_value int, @user_id numeric(10, 0)"
-
                 + "\nEXEC @return_value = [dbo].[add_user] @user_id = @user_id OUTPUT,@login_name = N'" + u.Login_Name + "',	@name = N'" + u.Name + "',@domain_username = N'" + u.Domain_Username + "',@current_user =" + u.Current_User
-
-                + "\nSELECT @user_id as N'@user_id'"
-
-                + "\nSELECT  'Return Value' = @return_value "
-
-                + "\nGO";
+                + "\n SELECT @user_id as N'@user_id'"
+                + "\n SELECT  'Return Value' = @return_value " ;
 
             SqlConnection conn = new SqlConnection(sqlConnectionString);
-
-            Server server = new Server(new ServerConnection(conn));
+            SqlCommand myCommand = new SqlCommand(script, conn);
+            // Server server = new Server(new ServerConnection(conn));
 
             try
             {
-                server.ConnectionContext.ExecuteNonQuery(script);
+                conn.Open();
+                myCommand.ExecuteNonQuery();
+                //server.ConnectionContext.ExecuteNonQuery(script);
 
                 log.Information("Success Message : Script added successfully \n");
                 val = true;
@@ -77,6 +73,7 @@ namespace Automation_LVTS.Service
                                             + "\nMessage : user " + u.Name + " is not added in database " + db + " and server " + servern + " ."
                                             + "\nError : "+e.Message+" \n"+e.StackTrace
                                             + $"\nExecution Time: {watch.ElapsedMilliseconds} ms");
+                Console.WriteLine(e);
             }
             finally
             {

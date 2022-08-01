@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Automation_LVTS.Service;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -42,21 +43,28 @@ namespace Automation_LVTS.View
 
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
+            Mouse.OverrideCursor = Cursors.Wait;
+
+            SharedConfig sc = new SharedConfig();
+            sc.Servername = serverName.Text;
             //System.Security.Principal.WindowsIdentity.GetCurrent().Name
-            if ( login_username.Text == System.Security.Principal.WindowsIdentity.GetCurrent().Name && login_pwd.Password == "admin")
+            if ( login_username.Text == System.Security.Principal.WindowsIdentity.GetCurrent().Name && login_pwd.Password == "admin" && sc.GetAllDBs()!=null)
             {
-                this.Hide();
                 Home_window home = new Home_window();
+                
                 home.Show();
+                this.Hide();
             }
             else
             {
-                errorLabel_login.Text = "Check your login and password \nYou're not an administrator !";
-                errorLabel_login.FontSize = 15;
+                errorLabel_login.Text = "Login, password or server name is invalid !";
+                errorLabel_login.FontSize = 12;
                 Console.WriteLine(System.Security.Principal.WindowsIdentity.GetCurrent().Name);
             }
-           
-            
+
+            Mouse.OverrideCursor = Cursors.Arrow;
+
+
         }
     }
 }

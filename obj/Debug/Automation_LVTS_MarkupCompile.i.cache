@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\YEMBouchouicha\source\repos\WPF-AutomationApp\Automation_LVTS\obj\Debug\
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\obj\Debug\
 Automation_LVTS
 none
 false
 DEBUG;TRACE
-C:\Users\YEMBouchouicha\source\repos\WPF-AutomationApp\Automation_LVTS\App.xaml
-7540875713
-33-1454876095
-221755017572
-257-1780698434
+D:\--Etudes--\Stage LINEDATA\WPF-AutomationApp\Automation_LVTS\App.xaml
+7367337714
+34378185747
+22239809749
+257571973624
 MainWindow.xaml;View\DataBaseConfig.xaml;View\Home_window.xaml;View\LoginView.xaml;View\MT_Config.xaml;View\ODBC__Config.xaml;View\UserConfig.xaml;
 
-False
+True
 

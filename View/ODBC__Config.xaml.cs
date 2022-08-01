@@ -28,6 +28,13 @@ namespace Automation_LVTS.View
         public ODBC__Config()
         {
             InitializeComponent();
+            if (ocs.GetAllDBs() != null)
+            {
+                foreach (var item in ocs.GetAllDBs())
+                {
+                    comboDB_odbc.Items.Add(item);
+                }
+            }
             errorCol = new BrushConverter();
             brush = (Brush)errorCol.ConvertFrom("#FFDA5353");
         }
@@ -49,6 +56,8 @@ namespace Automation_LVTS.View
 
         private void btnRun_odbc_Click(object sender, RoutedEventArgs e)
         {
+
+            Mouse.OverrideCursor = Cursors.Wait;
             if (DS_Name_odbc.Text=="" || serverName_odbc.Text ==""
                 || comboDB_odbc.SelectedItem==null)
             {
@@ -76,6 +85,10 @@ namespace Automation_LVTS.View
                     MessageBox.Show("The DataSource Name Exist ! Please choose another one ", "Create New ODBC Data Source", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
             }
+
+
+            Mouse.OverrideCursor = Cursors.Arrow;
+
 
         }
     }

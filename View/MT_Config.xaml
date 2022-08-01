@@ -473,7 +473,7 @@
                                 FontFamily="Montserrat"
                                 FontSize="10"
                                 FontWeight="Normal"
-                                Foreground="White">
+                                Foreground="White" Click="btnChooseKF_mt_Click">
 
                                 <Button.Style>
                                     <Style TargetType="Button">
@@ -554,7 +554,7 @@
                                 FontFamily="Montserrat"
                                 FontSize="10"
                                 FontWeight="Normal"
-                                Foreground="White">
+                                Foreground="White" Click="btnAddKeys_mt_Click">
 
                                 <Button.Style>
                                     <Style TargetType="Button">

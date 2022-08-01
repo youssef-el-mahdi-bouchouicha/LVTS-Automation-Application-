@@ -106,6 +106,7 @@ namespace Automation_LVTS.View
 
         private void btnRunScript_dbc_Click(object sender, RoutedEventArgs e)
         {
+            Mouse.OverrideCursor = Cursors.Wait;
             if (serverName_dbc.Text == "" || dbName_dbc.Text == "" || filepath_dbc.Text == "")
             {
                 errorLabel_dbc.Text = "ServerName, Database and file path are required \nPlease check this fields before reunning script. \nThank you !";
@@ -134,10 +135,12 @@ namespace Automation_LVTS.View
 
                 }
             }
+            Mouse.OverrideCursor = Cursors.Arrow;
         }
 
         private void btnChooseF_dbc_Click(object sender, RoutedEventArgs e)
         {
+            Mouse.OverrideCursor = Cursors.Wait;
             OpenFileDialog dialog = new OpenFileDialog();
 
             if (serverName_dbc.Text == "" || dbName_dbc.Text == "")
@@ -174,6 +177,7 @@ namespace Automation_LVTS.View
                     }
                 }
             }
+            Mouse.OverrideCursor = Cursors.Arrow;
 
         }
 
