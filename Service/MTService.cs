@@ -280,7 +280,7 @@ namespace Automation_LVTS.Service
             else
             {
                 string path = @"C:\Automation LVTS 2022\" + foldername + @"\Azman.xml";
-                File.Copy(@"C:\Automation LVTS 2022\Azman.xml", path);
+                File.Copy(Directory.GetParent(Directory.GetCurrentDirectory())+ @"\RequiredFiles\Azman.xml", path,true);
                 return path;
             }
         }

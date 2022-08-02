@@ -29,16 +29,15 @@ namespace Automation_LVTS.View
         public static BrushConverter errorCol;
         public static Brush brush;
         
-        public MT_Config()
+        public MT_Config(string d )
         {
             InitializeComponent();
-            if (mts.GetAllDBs() != null)
-            {
-                foreach (var item in mts.GetAllDBs())
+            
+                foreach (var item in mts.GetAllDBs(d))
                 {
                     comboDB_mt.Items.Add(item);
                 }
-            }
+            
             RegistryKey lvts_auto = Registry.LocalMachine;
             string[] list3 = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\ODBC\ODBC.INI").GetSubKeyNames();
             foreach (string s in list3)
@@ -143,6 +142,19 @@ namespace Automation_LVTS.View
             else
             {
                 mts.Add_License_Keys(filepath_mt.Text,comboDB_mt.SelectedItem.ToString(),serverName_mt.Text);
+                if (mts.Run_MTconfig(serverGroupName_mt.Text, serverName_mt.Text, comboDB_mt.SelectedItem.ToString(), comboDS_mt.SelectedItem.ToString(), int.Parse(managmentPort_mt.Text)) == true)
+                {
+                    errorLabel.Foreground = Brushes.Blue;
+                    errorLabel.Text = "INFO :  - license keys added successfuly ! ";
+                    MessageBox.Show("Middle tier configuration : ","license keys added", MessageBoxButton.OKCancel, MessageBoxImage.Information);
+                }
+                else
+                {
+                    errorLabel.Foreground = brush;
+                    errorLabel.Text = "Error :  - Can't add license keys  ";
+                    MessageBox.Show("Middle tier Configuration : ", "Error while adding license keys", MessageBoxButton.OK, MessageBoxImage.Error);
+
+                }
             }
 
             Mouse.OverrideCursor = Cursors.Arrow;

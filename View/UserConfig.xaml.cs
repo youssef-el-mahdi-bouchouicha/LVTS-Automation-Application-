@@ -26,16 +26,15 @@ namespace Automation_LVTS.View
         UserService uss = new UserService();
         public static BrushConverter errorCol;
         public static Brush brush;
-        public UserConfig()
+        public UserConfig( string s)
         {
             InitializeComponent();
-            if (uss.GetAllDBs() != null)
-            {
-                foreach (var item in uss.GetAllDBs())
+            
+                foreach (var item in uss.GetAllDBs(s))
                 {
                     comboDB_uc.Items.Add(item);
                 }
-            }
+           
             errorCol = new BrushConverter();
             brush = (Brush)errorCol.ConvertFrom("#FFDA5353");
             

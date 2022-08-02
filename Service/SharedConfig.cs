@@ -11,7 +11,6 @@ namespace Automation_LVTS.Service
 {
     public class SharedConfig
     {
-        public string Servername { get; set; }
         public string LogFolderCreation()
         {
             string folderName = @"C:\Automation LVTS 2022\Automation LogFolder";
@@ -40,13 +39,13 @@ namespace Automation_LVTS.Service
             System.IO.File.WriteAllText(s, ss);
         }
 
-        public List<string> GetAllDBs()
+        public List<string> GetAllDBs(string s)
         {
             List<String> list = new List<String>();
 
             // SqlConnection myConn = new SqlConnection(@"Data Source=" + ServerName + ";Initial Catalog=master;Integrated Security=True");
             // Open connection to the database
-            string conString = @"Data Source=" +Servername+ ";Integrated Security=True";
+            string conString = @"Data Source=" + s + ";Integrated Security=True";
 
 
             using (SqlConnection con = new SqlConnection(conString))
@@ -63,7 +62,7 @@ namespace Automation_LVTS.Service
                             while (dr.Read())
                             {
                                 list.Add(dr[0].ToString());
-                                Console.WriteLine(dr[0].ToString());
+                                //Console.WriteLine(dr[0].ToString());
                             }
                         }
                     }

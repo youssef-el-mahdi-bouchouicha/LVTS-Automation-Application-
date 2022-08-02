@@ -1,6 +1,7 @@
 ﻿using Automation_LVTS.Service;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,9 +21,11 @@ namespace Automation_LVTS.View
     /// </summary>
     public partial class LoginView : Window
     {
+        SharedConfig sc = new SharedConfig();
         public LoginView()
         {
             InitializeComponent();
+             Console.WriteLine(Directory.GetParent(Directory.GetCurrentDirectory())+ @"\RequiredFiles\Azman.xml");
         }
 
         private void Window_MouseDown(object sender, MouseButtonEventArgs e)
@@ -45,21 +48,21 @@ namespace Automation_LVTS.View
         {
             Mouse.OverrideCursor = Cursors.Wait;
 
-            SharedConfig sc = new SharedConfig();
-            sc.Servername = serverName.Text;
             //System.Security.Principal.WindowsIdentity.GetCurrent().Name
-            if ( login_username.Text == System.Security.Principal.WindowsIdentity.GetCurrent().Name && login_pwd.Password == "admin" && sc.GetAllDBs()!=null)
-            {
-                Home_window home = new Home_window();
-                
-                home.Show();
-                this.Hide();
-            }
-            else
+            if ( login_username.Text != System.Security.Principal.WindowsIdentity.GetCurrent().Name || login_pwd.Password != "admin" || sc.GetAllDBs(serverName.Text)==null)
             {
                 errorLabel_login.Text = "Login, password or server name is invalid !";
                 errorLabel_login.FontSize = 12;
                 Console.WriteLine(System.Security.Principal.WindowsIdentity.GetCurrent().Name);
+            }
+            else
+            {
+                
+                //Console.WriteLine(sc.GetAllDBs());
+                Home_window home = new Home_window();
+                home.Servername = serverName.Text;
+                home.Show();
+                this.Hide();
             }
 
             Mouse.OverrideCursor = Cursors.Arrow;

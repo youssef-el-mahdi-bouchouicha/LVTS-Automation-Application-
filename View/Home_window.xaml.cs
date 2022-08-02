@@ -22,13 +22,13 @@ namespace Automation_LVTS.View
     public partial class Home_window : Window
     {
         public string Servername { get; set; }
-        UserConfig userConfig = new UserConfig();
+        //UserConfig userConfig = new UserConfig("");
         
-        DataBaseConfig dbConfig = new DataBaseConfig();
+        //DataBaseConfig dbConfig = new DataBaseConfig();
        
-        ODBC__Config odbcConfig = new ODBC__Config();
+        //ODBC__Config odbcConfig = new ODBC__Config();
 
-        MT_Config mtConfig = new MT_Config();
+        //MT_Config mtConfig = new MT_Config();
         public Home_window()
         {
             InitializeComponent();
@@ -56,7 +56,7 @@ namespace Automation_LVTS.View
                 {
 
                 // Create and show the Window
-                    dbConfig = new DataBaseConfig();
+                    DataBaseConfig dbConfig = new DataBaseConfig();
                     dbConfig.Show();
                     
 
@@ -77,31 +77,72 @@ namespace Automation_LVTS.View
 
         private void btnCreateUser_Click(object sender, RoutedEventArgs e)
         {
-            if (!userConfig.Activate())
+            Thread newWindowThread = new Thread(new ThreadStart(() =>
             {
-                userConfig = new UserConfig();
+
+                // Create and show the Window
+                UserConfig userConfig = new UserConfig(Servername);
+                userConfig.ServerName_uc.Text = Servername;
                 userConfig.Show();
-            }
+
+
+                // Start the Dispatcher Processing
+                System.Windows.Threading.Dispatcher.Run();
+            }));
+            // Set the apartment state
+            newWindowThread.SetApartmentState(ApartmentState.STA);
+            // Make the thread a background thread
+            newWindowThread.IsBackground = true;
+            // Start the thread
+            newWindowThread.Start();
 
         }
 
         private void btnODBCConfig_Click(object sender, RoutedEventArgs e)
         {
-            if (!odbcConfig.Activate())
+            
+            Thread newWindowThread = new Thread(new ThreadStart(() =>
             {
-                odbcConfig = new ODBC__Config();
+
+                // Create and show the Window
+                ODBC__Config odbcConfig = new ODBC__Config(Servername);
+                odbcConfig.serverName_odbc.Text = Servername;
                 odbcConfig.Show();
-            }
+
+
+                // Start the Dispatcher Processing
+                System.Windows.Threading.Dispatcher.Run();
+            }));
+            // Set the apartment state
+            newWindowThread.SetApartmentState(ApartmentState.STA);
+            // Make the thread a background thread
+            newWindowThread.IsBackground = true;
+            // Start the thread
+            newWindowThread.Start();
 
         }
 
         private void btnMtConfig_Click(object sender, RoutedEventArgs e)
         {
-            if (!mtConfig.Activate())
+            
+            Thread newWindowThread = new Thread(new ThreadStart(() =>
             {
-                mtConfig = new MT_Config();
+
+                // Create and show the Window
+                MT_Config mtConfig = new MT_Config(Servername);
+                mtConfig.serverName_mt.Text = Servername;
                 mtConfig.Show();
-            }
+
+
+                // Start the Dispatcher Processing
+                System.Windows.Threading.Dispatcher.Run();
+            }));
+            // Set the apartment state
+            newWindowThread.SetApartmentState(ApartmentState.STA);
+            // Make the thread a background thread
+            newWindowThread.IsBackground = true;
+            // Start the thread
+            newWindowThread.Start();
 
         }
 

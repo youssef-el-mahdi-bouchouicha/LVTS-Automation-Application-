@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<LinedataServicesLicenseInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ClientString>Linedata QA</ClientString>
+	<ProductKeyCollection>
+		<ProductKeyTouple>
+			<Product>7.0 Upgrade Client</Product>
+			<Key>MJQO44-DA6XMM-6TL6VC-TIMVEH-B6WIBU-2SXQM4-ZN3VRK-W2IFEZ-AN4XBQ-3CBAQN-15J6</Key>
+		</ProductKeyTouple>
+		<ProductKeyTouple>
+			<Product>Pre-Trade Compliance</Product>
+			<Key>1G3FWH-XBP3MO-RIME4Q-HZYPM5-OFXRAS-XRBYPY-JAGNRY-VIHPPW-JFDU6L-PQD1QG-QYF4</Key>
+		</ProductKeyTouple>
+		<ProductKeyTouple>
+			<Product>Post-Trade Compliance</Product>
+			<Key>H54Z6W-BZ6HHC-WHNB56-KYEVCE-TAFZTI-26XZR3-LWMM45-LYXRB6-Y6DX3W-DAHDYI-XVPC</Key>
+		</ProductKeyTouple>
+		<ProductKeyTouple>
+			<Product>Tax Lot Relief</Product>
+			<Key>U54SOF-1PCWJE-TXDZNH-2UDDJD-O6KKUV-KPKULN-X3X6EH-P3OSPG-JQUMOE-2QC16X-H4H3</Key>
+		</ProductKeyTouple>
+		<ProductKeyTouple>
+			<Product>LongView Live</Product>
+			<Key>J1IZ4L-EUQO46-AAM4TZ-V4WFPT-NQ4N5P-XEF6TS-QOEZNZ-SDDD2P-12F1OJ-SSJSL1-4YM5</Key>
+		</ProductKeyTouple>
+		<ProductKeyTouple>
+			<Product>Hedge Fund Mode</Product>
+			<Key>SOJ3DM-DGKZU2-HOREGY-2Q6Q3M-PLUQWG-UYMGD4-OFJRZH-BBAZIW-E2YUDF-5SX3XZ-RD21</Key>
+		</ProductKeyTouple>
+		<ProductKeyTouple>
+			<Product>As Of Compliance</Product>
+			<Key>UUN4HD-E45IH1-GWJ4NE-1CUPQV-C5WHGH-OULOT2-WGF3L4-FISRN1-VRKW3R-KLD6GC-U5HX</Key>
+		</ProductKeyTouple>
+		<ProductKeyTouple>
+			<Product>Linedata Trader+</Product>
+			<Key>IS4XVY-NVWWS2-OSTLRD-LPSLQS-XO3ZYY-D1W6XG-JH5SIL-OB2VPF-5UEA5G-DLKKGZ-LARD</Key>
+		</ProductKeyTouple>
+		<ProductKeyTouple>
+			<Product>Linedata Alerts</Product>
+			<Key>S4M4SB-QN2LFO-CITTL6-V5AMNU-FJKVRP-AZOJ21-RLP51X-12N6QA-IWY2ZJ-B5NPNL-UNLH</Key>
+		</ProductKeyTouple>
+		<ProductKeyTouple>
+			<Product>Linedata Executions Support</Product>
+			<Key>ZYDXFC-EXEV6V-P6HPLK-QZVQQO-J44GTX-K4KCYS-RTUGCU-E1AXJL-ECN65G-VYYSYB-NWTJ</Key>
+		</ProductKeyTouple>
+		<ProductKeyTouple>
+			<Product>Linedata Overview Tools</Product>
+			<Key>IKBM6W-K23GTD-A2KQ1Y-AXUDWO-6I3IBR-FWLROU-AUELEA-FY1E4I-DSSRGC-CHY2LK-TTLN</Key>
+		</ProductKeyTouple>
+		<ProductKeyTouple>
+			<Product>Linedata Portfolio Management</Product>
+			<Key>TQYUAW-MAY1JI-VHADWR-YUPA35-E6NZU3-EHWCTP-3N1OJK-OFCJGZ-DD54QM-W4Z266-SNSS</Key>
+		</ProductKeyTouple>
+		<ProductKeyTouple>
+			<Product>Linedata Post Trade</Product>
+			<Key>DMWGAI-3P2MZJ-EE1SOP-M4NCWL-4TWMJX-JSKJVE-D3C3PQ-X6SOD2-AVF26Q-L2EWVH-2K6A</Key>
+		</ProductKeyTouple>
+		<ProductKeyTouple>
+			<Product>Linedata Program Trading</Product>
+			<Key>BWEJFS-V2GXB6-2B1WA6-KIHO2M-MX5SRO-L2S3U6-HL5WJP-BCGN3W-O5Q2IG-1BTRPB-WXYW</Key>
+		</ProductKeyTouple>
+		<ProductKeyTouple>
+			<Product>Linedata Trading Support</Product>
+			<Key>K642TR-N13REE-BHGZUO-OSC1CX-JBLI4D-1ZXNDU-QRB1JL-HNFUWR-OQTZSP-AGV4FI-H34B</Key>
+		</ProductKeyTouple>
+		<ProductKeyTouple>
+			<Product>Linedata Trading Tools</Product>
+			<Key>2WKC4Y-R64KWK-ZRZT1D-JDY65U-LUXEYG-CZBFFV-FIQ1RD-Y53JRN-UNZ4W1-KJFUOP-1SO5</Key>
+		</ProductKeyTouple>
+		<ProductKeyTouple>
+			<Product>NAV Plausibility</Product>
+			<Key>C5ZLFE-WDI32K-4AWUTF-C2PGNO-DV4JEH-45JX55-WINN24-L64YCW-EJVT6V-WIXFDH-5BHM</Key>
+		</ProductKeyTouple>
+		<ProductKeyTouple>
+			<Product>SDK License</Product>
+			<Key>SYRAIT-HR44HN-AJPH5N-EEFG35-2CKZHN-JKWP3C-2OOCD5-KICFBO-652XCZ-2QU12L-6KDA</Key>
+		</ProductKeyTouple>
+	</ProductKeyCollection>
+</LinedataServicesLicenseInformation>

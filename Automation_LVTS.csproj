@@ -750,6 +750,8 @@
     <Content Include="Content\svg-with-js.min.css" />
     <Content Include="Content\v4-shims.css" />
     <Content Include="Content\v4-shims.min.css" />
+    <Resource Include="RequiredFiles\Azman.xml" />
+    <Resource Include="RequiredFiles\QA_licenses_012714_with_SDK.xml" />
     <Content Include="Scripts\fontawesome\all.js" />
     <Content Include="Scripts\fontawesome\all.min.js" />
     <Content Include="Scripts\fontawesome\brands.js" />

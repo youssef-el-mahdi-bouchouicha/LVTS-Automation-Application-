@@ -25,16 +25,15 @@ namespace Automation_LVTS.View
         OdbcConfigService ocs = new OdbcConfigService();
         public static BrushConverter errorCol;
         public static Brush brush;
-        public ODBC__Config()
+        public ODBC__Config(string s)
         {
             InitializeComponent();
-            if (ocs.GetAllDBs() != null)
-            {
-                foreach (var item in ocs.GetAllDBs())
+            
+                foreach (var item in ocs.GetAllDBs(s))
                 {
                     comboDB_odbc.Items.Add(item);
                 }
-            }
+           
             errorCol = new BrushConverter();
             brush = (Brush)errorCol.ConvertFrom("#FFDA5353");
         }
